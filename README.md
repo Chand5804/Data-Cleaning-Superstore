@@ -36,7 +36,7 @@ The dashboard helps compare sales performance across product categories, regions
 | File                                                  | Description                                              |
 | ----------------------------------------------------- | -------------------------------------------------------- |
 | `Superstore_Sales_Dashboard.xlsx`                     | Excel dashboard containing sales visualizations          |
-| `Superstore_Internship_Analysis_Report_Corrected.pdf` | 2-page analysis report with findings and recommendations |
+| `Superstore_Internship_Analysis_Report.pdf` | 2-page analysis report with findings and recommendations |
 
 ## Tools Used
 
