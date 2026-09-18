@@ -1,43 +1,48 @@
-# Data Cleaning – Superstore Dataset
+# Sales Analysis Dashboard & Recommendations
 
 ## Project Overview
 
-This project focuses on cleaning and preparing a Superstore dataset using Python and Pandas.
+The cleaned Superstore dataset was further analyzed to identify sales patterns and generate business insights. An Excel dashboard was created to visualize sales performance across different categories, regions, customer segments, sub-categories, and monthly trends.
 
-## Dataset
+## Dashboard Analysis
 
-The original dataset is stored in `train.csv`.
+The dashboard includes:
 
-The cleaned dataset is stored in `cleaned_superstore.csv`.
+* Sales by Category
+* Sales by Region
+* Sales by Customer Segment
+* Sales by Sub-Category
+* Monthly Sales Trend
 
-## Data Cleaning Steps
+## Key Findings
 
-* Loaded the dataset using Pandas
-* Checked the number of rows and columns
-* Checked for missing values
-* Checked for duplicate rows
-* Converted Order Date and Ship Date into the correct date format
-* Handled missing Postal Code values
-* Checked numerical values for invalid negative Sales
-* Checked categorical columns for consistency
-* Removed extra spaces from text values
-* Exported the cleaned dataset as a CSV file
+The analysis covers 4,922 unique orders and 793 unique customers.
+
+The dashboard helps compare sales performance across product categories, regions, customer segments, and sub-categories. Monthly sales trends are also used to identify stronger and weaker sales periods.
+
+## Actionable Recommendations
+
+1. **Prioritize high-performing sub-categories**
+   Maintain sufficient inventory and consider focused promotional campaigns for strong-selling products.
+
+2. **Create region-specific sales plans**
+   Compare regional performance and use targeted offers and customer research to improve lower-performing areas.
+
+3. **Plan marketing around monthly trends**
+   Prepare inventory and campaigns before high-demand periods and use targeted promotions during slower periods.
+
+## Deliverables
+
+| File                                                  | Description                                              |
+| ----------------------------------------------------- | -------------------------------------------------------- |
+| `Superstore_Sales_Dashboard.xlsx`                     | Excel dashboard containing sales visualizations          |
+| `Superstore_Internship_Analysis_Report_Corrected.pdf` | 2-page analysis report with findings and recommendations |
 
 ## Tools Used
 
 * Python
 * Pandas
-* Google Colab
+* Microsoft Excel
+* Pivot Tables
+* Data Visualization
 * GitHub
-
-## Files
-
-| File                             | Description                                     |
-| -------------------------------- | ----------------------------------------------- |
-| `train.csv`                      | Original dataset                                |
-| `cleaned_superstore.csv`         | Cleaned dataset                                 |
-| `Data_Cleaning_Superstore.ipynb` | Python notebook containing the cleaning process |
-
-## Conclusion
-
-The dataset was inspected, cleaned, and prepared for further data analysis.
